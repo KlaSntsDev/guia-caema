@@ -1,0 +1,25 @@
+.wrap-conteudo {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 36px;
+  color: #00588d;
+  margin-bottom: 100px;
+}
+
+nav .conteudo {
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 50px;
+  color: #000;
+}
+
+a.conteudo:hover {
+  text-decoration: underline;
+  color: #00588d;
+  transition: text-decoration 2000ms linear;
+}
