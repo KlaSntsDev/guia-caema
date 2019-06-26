@@ -2,5 +2,53 @@
   float: left;
   background-color: var(--color-negative);
   width: 495px;
-  position: relative;
+  height: 100%;
+  text-align: center;
+}
+
+.wrapper-menu .title {
+  margin-top: 70px;
+  color: var(--color-first);
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.wrapper-menu .title .-back {
+  color: var(--color-zero);
+  background-color: var(--color-first);
+  padding: 5px;
+}
+
+.wrapper-menu .subTitle {
+  color: var(--color-zero);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.wrapper-menu .-line {
+  border-right: 8px solid var(--color-zero);
+  box-sizing: border-box;
+}
+
+.wrapper-menu .menu a {
+  color: var(--color-zero);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 3;
+}
+
+.wrapper-menu .menu a::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-zero);
+  margin-right: 10px;
+}
+
+.wrapper-menu .menu a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
