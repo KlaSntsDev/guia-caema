@@ -1,10 +1,37 @@
 .wrapper-menu {
   float: left;
   width: 526px;
+  position: relative;
 }
 
 .wrapper-menu .logo {
-  width: 389px;
-  margin-left: 80px;
-  margin-top: 100px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+}
+
+.wrapper-menu .menu {
+  background-color: var(--color-first);
+  box-shadow: -2.5px 3.2px 5px 0 var(--color-negative);
+  border-radius: 5%;
+  width: 430px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 200px;
+  text-align: center;
+}
+
+.wrapper-menu .menu a {
+  color: var(--color-negative);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.wrapper-menu .menu a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
