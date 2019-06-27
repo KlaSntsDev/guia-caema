@@ -2,6 +2,24 @@
   float: left;
   background-color: var(--color-negative);
 
-  width: 1394px;
+  width: 50%;
   height: 100%;
+}
+
+.wrapper-conteudo .title {
+  margin-top: 80px;
+  color: var(--color-zero);
+  font-size: 2em;
+  text-align: center;
+}
+
+.wrapper-conteudo .step {
+  display: inline-block;
+  width: 30%;
+  background-color: var(--color-first);
+  margin-right: 20px;
+}
+
+.wrapper-conteudo .-last {
+  margin-right: 0;
 }
