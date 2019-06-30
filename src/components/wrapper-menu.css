@@ -1,9 +1,13 @@
 .wrapper-menu {
   float: left;
-  background-color: var(--color-negative);
-  width: 30%;
+  background-color: var(--color-zero);
+  width: 25%;
   height: 100%;
   text-align: center;
+}
+
+.wrapper-menu .logo {
+  margin-top: 80px;
 }
 
 .wrapper-menu .title {
@@ -14,13 +18,13 @@
 }
 
 .wrapper-menu .title .-back {
-  color: var(--color-zero);
+  color: var(--color-negative);
   background-color: var(--color-first);
   padding: 5px;
 }
 
 .wrapper-menu .subTitle {
-  color: var(--color-zero);
+  color: var(--color-negative);
   font-weight: bold;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -28,12 +32,10 @@
 }
 
 .wrapper-menu .-line {
-  border-right: 4px solid var(--color-zero);
-  box-sizing: border-box;
 }
 
 .wrapper-menu .menu a {
-  color: var(--color-zero);
+  color: var(--color-negative);
   text-decoration: none;
   font-size: 16px;
   line-height: 2;
@@ -44,7 +46,7 @@
   display: inline-block;
   width: 5px;
   height: 5px;
-  border: 1px solid var(--color-zero);
+  border: 1px solid var(--color-negative);
   margin-right: 5px;
 }
 
