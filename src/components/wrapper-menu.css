@@ -1,9 +1,9 @@
 .wrapper-menu {
   float: left;
   background-color: var(--color-zero);
-  width: 25%;
-  height: 100%;
+  width: 20%;
   text-align: center;
+  position: fixed;
 }
 
 .wrapper-menu .logo {
